@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şirket İsmi - Ana Sayfa</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+
+</head>
+<body class="bg-gray-100">
+    <!-- Navigasyon -->
+    <nav class="bg-white p-4 flex justify-between items-center border-b">
+        <div class="flex space-x-4">
+            <a href="#" class="text-purple-600 hover:text-purple-800">
+                <i class="fas fa-home mr-2"></i>Anasayfa
+            </a>
+            <a href="#musteriyorumlari" class="text-purple-600 hover:text-purple-800">
+                <i class="fas fa-comments mr-2"></i>Müşteri Yorumları
+            </a>
+            <a href="#iletisim" class="text-purple-600 hover:text-purple-800">
+                <i class="fas fa-envelope mr-2"></i>İletişim
+            </a>
+        </div>
+        <div class="flex space-x-4">
+            <input type="text" placeholder="Aranacak İçeriği Girin" class="px-4 py-2 border rounded-lg">
+            <button class="bg-purple-600 text-white px-6 py-2 rounded-lg hover:bg-purple-700">
+                ARA
+            </button>
+        </div>
+    </nav>
+
+    <!-- Ana Başlık Bölümü -->
+    <header class="text-center py-20 px-4">
+        <h1 class="text-4xl font-bold mb-4">
+            İhtiyacınız Olan Her Şey
+            <span class="text-purple-600">Burada</span>
+        </h1>
+        <p class="text-gray-600 mb-8">
+            En iyi hizmeti sunmak için buradayız!
+        </p>
+        <div class="flex justify-center space-x-4">
+            <a href="https://github.com/mehmetaliakbag">
+            <button class="bg-purple-600 text-white px-8 py-3 rounded-lg hover:bg-purple-700">
+                Başla
+            </button>
+            </a>
+            <a href="https://www.linkedin.com/in/mehmetaliakbag/">
+            <button class="border border-purple-600 text-purple-600 px-8 py-3 rounded-lg hover:bg-purple-50">
+                Daha Fazla Bilgi
+            </button>
+            </a>
+        </div>
+    </header>
+
+
+
+    <!-- Müşteri Yorumları -->
+     
+    <section id="musteriyorumlari" class="py-12 px-4">
+        <h2 class="text-2xl font-bold text-center mb-12">Müşterilerimiz Ne Diyor?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+          <!-- Yorum Kartı 1 -->
+<div class="bg-white p-6 rounded-lg shadow-lg">
+    <div class="text-purple-600 mb-4">"</div>
+    <p class="text-gray-600 mb-4">Harika bir deneyimdi! Kesinlikle tavsiye ediyorum.</p>
+    <div class="flex items-center">
+        <img src="https://picsum.photos/40/40" alt="Ahmet Yılmaz" class="w-10 h-10 rounded-full mr-4">
+        <div>
+            <h3 class="font-semibold">Ahmet Yılmaz</h3>
+            <p class="text-gray-500 text-sm">Müşteri</p>
+        </div>
+    </div>
+</div>
+
+            <!-- Yorum Kartı 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <div class="text-purple-600 mb-4">"</div>
+                <p class="text-gray-600 mb-4">Profesyonel ve kaliteli hizmet.</p>
+                <div class="flex items-center">
+                    <img src="https://picsum.photos/30/30" alt="Ayşe Karalar" class="w-10 h-10 rounded-full mr-4">
+                    <div>
+                        <h3 class="font-semibold">Ayşe Kara</h3>
+                        <p class="text-gray-500 text-sm">Müşteri</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Yorum Kartı 3 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <div class="text-purple-600 mb-4">"</div>
+                <p class="text-gray-600 mb-4">Çok memnun kaldım, teşekkürler.</p>
+                <div class="flex items-center">
+                    <img src="https://picsum.photos/20/20" alt="Mehmet Demir" class="w-10 h-10 rounded-full mr-4">
+                    <div>
+                        <h3 class="font-semibold">Mehmet Demir</h3>
+                        <p class="text-gray-500 text-sm">Müşteri</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Yorum Kartı 4 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <div class="text-purple-600 mb-4">"</div>
+                <p class="text-gray-600 mb-4">Tam beklediğim gibi bir hizmet.</p>
+                <div class="flex items-center">
+                    <img src="https://picsum.photos/43/43" alt="Zeynep Yıldız" class="w-10 h-10 rounded-full mr-4">
+                    <div>
+                        <h3 class="font-semibold">Zeynep Yıldız</h3>
+                        <p class="text-gray-500 text-sm">Müşteri</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- İletişim Formu -->
+        
+        <section id="iletisim" class="max-w-md mx-auto bg-white rounded-lg shadow-lg p-8 my-12">
+            <h2 class="text-2xl font-bold mb-6">Bize Ulaşın</h2>
+            <form>
+                <div class="mb-4">
+                    <label class="block text-gray-700 mb-2">İsim</label>
+                    <input type="text" placeholder="İsminiz" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-purple-600">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 mb-2">E-posta</label>
+                    <input type="email" placeholder="E-posta adresiniz" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-purple-600">
+                </div>
+                <div class="mb-6">
+                    <label class="block text-gray-700 mb-2">Mesaj</label>
+                    <textarea placeholder="Mesajınız..." class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-purple-600" rows="4"></textarea>
+                </div>
+                <button class="w-full bg-purple-600 text-white py-3 rounded-lg hover:bg-purple-700">
+                    Gönder
+                </button>
+            </form>
+        </section>
+
+<!-- Footer -->
+<footer class="bg-white py-8 mt-12">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <!-- Sol taraftaki linkler -->
+            <div class="flex space-x-4 text-purple-600">
+                <a href="#anasayfa" class="hover:text-purple-800">Anasayfa</a>
+                <a href="#musteriyorumlari" class="hover:text-purple-800">Müşteri Yorumları</a>
+                <a href="##iletisim" class="hover:text-purple-800">İletişim</a>
+            </div>
+
+            <!-- Ortadaki copyright yazısı -->
+            <p class="text-gray-600 text-center">&copy; 2025 Mehmet Ali Akbağ. Tüm hakları saklıdır.</p>
+
+            <!-- Sağ taraftaki sosyal medya ikonları -->
+            <div class="flex space-x-4">
+                <a href="https://www.linkedin.com/in/mehmetaliakbag/" target="_blank" class="text-purple-600 hover:text-purple-800">
+                    <i class="fab fa-linkedin text-2xl"></i>
+                </a>
+                <a href="https://github.com/mehmetaliakbag" target="_blank" class="text-purple-600 hover:text-purple-800">
+                    <i class="fab fa-github text-2xl"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
